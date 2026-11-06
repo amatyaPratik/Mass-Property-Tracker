@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mass-properties-tracker"
+version = "0.1.0"
+description = "Manage, validate and roll up aircraft mass properties (mass, CG, inertia) with full change history."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Pratik Amatya" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+mpt = "mass_properties.cli:main"
+
+[tool.setuptools]
+packages = ["mass_properties"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

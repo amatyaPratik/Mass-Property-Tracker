@@ -1,0 +1,3 @@
+id,name,parent_id,mass,cg_x,cg_y,cg_z,ixx,iyy,izz,ixy,ixz,iyz
+PROP-ENG,Engine,PROP,325,1.05,0.00,0.00,13,26,27,0,0,0
+SYS-AV,Avionics,SYS,48,2.30,0.00,0.40,1.2,1.5,1.4,0,0,0

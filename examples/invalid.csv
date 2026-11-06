@@ -1,0 +1,5 @@
+id,name,parent_id,mass,cg_x,cg_y,cg_z,ixx,iyy,izz,ixy,ixz,iyz
+BAD-1,Negative mass,AC,-5,1,0,0,,,,,,
+BAD-2,Missing CG,AC,10,1,,0,,,,,,
+BAD-3,Impossible inertia,AC,10,1,0,0,1,1,5,0,0,0
+BAD-4,Orphan,NOPE,10,1,0,0,,,,,,

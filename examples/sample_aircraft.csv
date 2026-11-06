@@ -1,0 +1,13 @@
+id,name,parent_id,mass,cg_x,cg_y,cg_z,ixx,iyy,izz,ixy,ixz,iyz
+AC,Generic trainer aircraft,,0,0,0,0,,,,,,
+STR,Structure,AC,0,0,0,0,,,,,,
+STR-FUS,Fuselage,STR,420,4.20,0.00,0.10,35,610,620,0,-4,0
+STR-WL,Left wing,STR,160,4.60,-3.10,0.30,520,40,550,0,0,0
+STR-WR,Right wing,STR,160,4.60,3.10,0.30,520,40,550,0,0,0
+STR-EMP,Empennage,STR,55,8.90,0.00,0.60,18,9,22,0,1,0
+PROP,Propulsion,AC,0,0,0,0,,,,,,
+PROP-ENG,Engine,PROP,310,1.10,0.00,0.00,12,25,26,0,0,0
+PROP-FUEL,Fuel (full),PROP,240,4.50,0.00,0.20,600,30,620,0,0,0
+SYS,Systems,AC,0,0,0,0,,,,,,
+SYS-AV,Avionics,SYS,45,2.30,0.00,0.40,1.2,1.5,1.4,0,0,0
+SYS-LG,Landing gear,SYS,95,3.80,0.00,-0.70,14,6,16,0,0,0
